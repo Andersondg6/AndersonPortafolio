@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+/* Imagen centrada */
+
+.hero {
+  margin: 0 auto;
+  width: 100vw;
+  min-height: 30vh;
+  max-width: 42.5rem;
+  min-width: 30rem;
+}
+
+figure {
+  position: relative;
+  font-size: 0px;
+}
+
+.copyright {
+  font-size: 1rem;
+  position: absolute;
+  bottom: 12rem;
+  left: -10.7rem;
+  transform: rotate(-90deg);
+}
+
+img {
+  width: 100%;
+}
+/* section name and job */
+
+.hero__job {
+  width: 100%;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1.1rem;
+  gap: 2rem;
+}
+
+.hero__job img {
+  width: 40px;
+}
+
+.hero__job {
+  position: sticky;
+  top: 0;
+}
